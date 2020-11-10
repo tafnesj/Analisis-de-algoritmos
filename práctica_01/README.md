@@ -17,6 +17,7 @@
 ### Reporte :memo:
 Actividades a realizar para conformar el reporte:
 #### :pushpin: Burbuja 
+- [x] Teoría.
 - [x] Pseudocódigo.
 - [x] Tiempo para n=500,000.
 - [x] Análisis temporal.
@@ -26,6 +27,7 @@ Actividades a realizar para conformar el reporte:
 - [x] Aproximación polinomial.
 
 #### :pushpin: Burbuja optimizada 
+- [x] Teoría.
 - [x] Pseudocódigo.
 - [x] Tiempo para n=500,000.
 - [x] Análisis temporal.
@@ -35,6 +37,7 @@ Actividades a realizar para conformar el reporte:
 - [x] Aproximación polinomial.
 
 #### :pushpin: Inserción
+- [x] Teoría.
 - [x] Pseudocódigo.
 - [x] Tiempo para n=500,000.
 - [x] Análisis temporal.
@@ -44,6 +47,7 @@ Actividades a realizar para conformar el reporte:
 - [x] Aproximación polinomial.
 
 #### :pushpin: Selección 
+- [x] Teoría.
 - [x] Pseudocódigo.
 - [x] Tiempo para n=500,000.
 - [x] Análisis temporal.
@@ -53,6 +57,7 @@ Actividades a realizar para conformar el reporte:
 - [x] Aproximación polinomial.
 
 #### :pushpin: Shell 
+- [x] Teoría.
 - [x] Pseudocódigo.
 - [x] Tiempo para n=500,000.
 - [x] Análisis temporal.
@@ -62,6 +67,7 @@ Actividades a realizar para conformar el reporte:
 - [x] Aproximación polinomial.
 
 #### :pushpin: Árbol ABB 
+- [x] Teoría.
 - [x] Pseudocódigo.
 - [x] Tiempo para n=500,000.
 - [x] Análisis temporal.
