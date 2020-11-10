@@ -16,65 +16,81 @@
 
 ### Reporte :memo:
 Actividades a realizar para conformar el reporte:
-#### :pushpin: Burbuja 
-- [x] Teoría.
-- [x] Pseudocódigo.
-- [x] Tiempo para n=500,000.
-- [x] Análisis temporal.
-- [x] Gráfica.
-- [x] Función complejidad.
-- [x] Gráfica.
-- [x] Aproximación polinomial.
 
-#### :pushpin: Burbuja optimizada 
-- [x] Teoría.
-- [x] Pseudocódigo.
-- [x] Tiempo para n=500,000.
-- [x] Análisis temporal.
-- [x] Gráfica.
-- [x] Función complejidad.
-- [x] Gráfica.
-- [x] Aproximación polinomial.
+#### :bookmark_tabs: Presentación 
+- [x] Portada.
 
-#### :pushpin: Inserción
-- [x] Teoría.
-- [x] Pseudocódigo.
-- [x] Tiempo para n=500,000.
-- [x] Análisis temporal.
-- [x] Gráfica.
-- [x] Función complejidad.
-- [x] Gráfica.
-- [x] Aproximación polinomial.
+#### :bookmark_tabs: Introducción 
+- [x] Objetivo.
+- [x] Planteamiento del problema.
 
-#### :pushpin: Selección 
-- [x] Teoría.
-- [x] Pseudocódigo.
-- [x] Tiempo para n=500,000.
-- [x] Análisis temporal.
-- [x] Gráfica.
-- [x] Función complejidad.
-- [x] Gráfica.
-- [x] Aproximación polinomial.
+#### :bookmark_tabs: Desarrollo 
+- [x] Especificaciones de hardware.
+- [x] Sistema operativo.
+- [x] Compilador.
+- [x] Sistema operativo.
+- [x] Entorno controlado.
+- [x Definición de algoritmos de ordenamiento.
 
-#### :pushpin: Shell 
-- [x] Teoría.
-- [x] Pseudocódigo.
-- [x] Tiempo para n=500,000.
-- [x] Análisis temporal.
-- [x] Gráfica.
-- [x] Función complejidad.
-- [x] Gráfica.
-- [x] Aproximación polinomial.
+  #### :pushpin: Burbuja 
+  - [x] Teoría.
+  - [x] Pseudocódigo.
+  - [x] Tiempo para n=500,000.
+  - [x] Análisis temporal.
+  - [x] Gráfica.
+  - [x] Función complejidad.
+  - [x] Gráfica.
+  - [x] Aproximación polinomial.
 
-#### :pushpin: Árbol ABB 
-- [x] Teoría.
-- [x] Pseudocódigo.
-- [x] Tiempo para n=500,000.
-- [x] Análisis temporal.
-- [x] Gráfica.
-- [x] Función complejidad.
-- [x] Gráfica.
-- [x] Aproximación polinomial.
+  #### :pushpin: Burbuja optimizada 
+  - [x] Teoría.
+  - [x] Pseudocódigo.
+  - [x] Tiempo para n=500,000.
+  - [x] Análisis temporal.
+  - [x] Gráfica.
+  - [x] Función complejidad.
+  - [x] Gráfica.
+  - [x] Aproximación polinomial.
+
+  #### :pushpin: Inserción
+  - [x] Teoría.
+  - [x] Pseudocódigo.
+  - [x] Tiempo para n=500,000.
+  - [x] Análisis temporal.
+  - [x] Gráfica.
+  - [x] Función complejidad.
+  - [x] Gráfica.
+  - [x] Aproximación polinomial.
+
+  #### :pushpin: Selección 
+  - [x] Teoría.
+  - [x] Pseudocódigo.
+  - [x] Tiempo para n=500,000.
+  - [x] Análisis temporal.
+  - [x] Gráfica.
+  - [x] Función complejidad.
+  - [x] Gráfica.
+  - [x] Aproximación polinomial.
+
+  #### :pushpin: Shell 
+  - [x] Teoría.
+  - [x] Pseudocódigo.
+  - [x] Tiempo para n=500,000.
+  - [x] Análisis temporal.
+  - [x] Gráfica.
+  - [x] Función complejidad.
+  - [x] Gráfica.
+  - [x] Aproximación polinomial.
+
+  #### :pushpin: Árbol ABB 
+  - [x] Teoría.
+  - [x] Pseudocódigo.
+  - [x] Tiempo para n=500,000.
+  - [x] Análisis temporal.
+  - [x] Gráfica.
+  - [x] Función complejidad.
+  - [x] Gráfica.
+  - [x] Aproximación polinomial.
 
 #### :pushpin: General  
 - [x] Tabla comparativa n=500,000.
