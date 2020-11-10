@@ -4,14 +4,15 @@
 
 ### Algoritmos de ordenamiento
 
-|        Algoritmo       |    Codificación    |       Script       |        Main        |      Gráficas      |       Tiempos      |
-|:----------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
-|       [Burbuja]()      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| [Burbuja optimizada]() | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-|      [Inserción]()     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-|      [Selección]()     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-|        [Shell]()       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-|      [Árbol ABB]()     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|                   Algoritmo                  |    Codificación    |       Script       |        Main        |      Gráficas      |       Tiempos      |
+|:--------------------------------------------:|:------------------:|:------------------:|:------------------:|:------------------:|:------------------:|
+|       [Burbuja](códigos/bubbleSort.c)        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| [Burbuja optimizada](códigos/bubbleSortOp.c) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|      [Inserción](códigos/insertionSort.c)    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|      [Selección](códigos/selectionSort.c)    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|          [Shell](códigos/shellSort.c)        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|        [Árbol ABB](códigos/treeSort.c)       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+|            [Main](códigos/main.c)            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 ### Reporte :memo:
 Actividades a realizar para conformar el reporte:
@@ -106,5 +107,5 @@ Actividades a realizar para conformar el reporte:
 
 ## Autores :pencil2:
 - :octocat: [Ximena Guerrero.](https://github.com/xim-g)
-- :octocat: [Hernández.](https://github.com/Miguelasdz)
+- :octocat: [Miguel Hernández.](https://github.com/Miguelasdz)
 - :octocat: [Tafnes Jiménez.](https://github.com/tafnesj)
