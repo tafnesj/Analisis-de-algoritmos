@@ -30,7 +30,7 @@ Actividades a realizar para conformar el reporte:
 - [x] Compilador.
 - [x] Sistema operativo.
 - [x] Entorno controlado.
-- [x Definición de algoritmos de ordenamiento.
+- [x] Definición de algoritmos de ordenamiento.
 
   #### :pushpin: Burbuja 
   - [x] Teoría.
