@@ -1,6 +1,6 @@
 # Análisis de Algoritmos :books:
 
-## :page_facing_up: Práctica 02: *Pruebas a posteriori* 
+## :page_facing_up: Práctica 02: *Análisis temporal* 
 
 ### Algoritmos de búsqueda
 
@@ -17,17 +17,16 @@
 Actividades a realizar para conformar el reporte:
 
 #### :bookmark_tabs: Presentación 
-- [ ] Portada.
+- [x] Portada.
 
 #### :bookmark_tabs: Introducción 
-- [ ] Objetivo.
-- [ ] Planteamiento del problema.
+- [x] Objetivo.
+- [x] Planteamiento del problema.
 
 #### :bookmark_tabs: Desarrollo 
-- [ ] Especificaciones de hardware.
-- [ ] Sistema operativo.
-- [ ] Compilador.
-- [ ] Sistema operativo.
+- [x] Especificaciones de hardware.
+- [x] Compilador.
+- [x] Sistema operativo.
 - [ ] Entorno controlado.
 - [ ] Definición de algoritmos de búsqueda.
 
