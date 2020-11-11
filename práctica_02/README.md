@@ -4,14 +4,14 @@
 
 ### Algoritmos de búsqueda
 
-|         Algoritmo         |    Codificación con Hilos    |    Codificación sin Hilos    |      Gráficas      |       Tiempos      |       Scripts      |
-|:-------------------------:|:----------------------------:|:----------------------------:|:------------------:|:------------------:|:------------------:|
-|  [Lineal]()               | :x:                          | :x:                          | :x:                | :x:                | :x:                |
-|  [En árbol de búsqueda]() | :x:                          | :x:                          | :x:                | :x:                | :x:                |
-|  [Binaria]()              | :x:                          | :x:                          | :x:                | :x:                | :x:                |
-|  [Exponencial]()          | :x:                          | :x:                          | :x:                | :x:                | :x:                |
-|  [Fibonacci]()            | :x:                          | :x:                          | :x:                | :x:                | :x:                |
-|  [Main]()                 | :x:                          | :x:                          | :x:                | :x:                | :x:                |
+|       Algoritmo       |    Codificación con Hilos    |    Codificación sin Hilos    |      Gráficas      |       Tiempos      |       Scripts      |
+|:---------------------:|:----------------------------:|:----------------------------:|:------------------:|:------------------:|:------------------:|
+|  Lineal               | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                |
+|  En árbol de búsqueda | :x:                          | :x:                          | :x:                | :x:                | :x:                |
+|  Binaria              | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                |
+|  Exponencial          | :x:                          | :x:                          | :x:                | :x:                | :x:                |
+|  Fibonacci            | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                |
+|  Main                 | :hourglass_flowing_sand:     | :x:                          | :x:                | :x:                | :x:                |
 
 ### Reporte :memo:
 Actividades a realizar para conformar el reporte:
