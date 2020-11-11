@@ -4,7 +4,7 @@
 
 ### Algoritmos de búsqueda
 
-|       Algoritmo       |    Codificación con Hilos    |    Codificación sin Hilos    |      Gráficas      |       Tiempos      |       Scripts      |
+|       Algoritmo       |    Codificación sin Hilos    |    Codificación con Hilos    |      Gráficas      |       Tiempos      |       Scripts      |
 |:---------------------:|:----------------------------:|:----------------------------:|:------------------:|:------------------:|:------------------:|
 |  Lineal               | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                |
 |  En árbol de búsqueda | :x:                          | :x:                          | :x:                | :x:                | :x:                |
