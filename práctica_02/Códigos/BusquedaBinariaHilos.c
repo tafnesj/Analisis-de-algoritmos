@@ -1,6 +1,12 @@
-//Medicion de tiempo de Algoritmo de Busqueda Binaria con hilos
-//Compilacion: "gcc BusquedaBinariaHilo.c tiempo.c -o bbh -lpthread"
-//Ejecucion: "./bbh [tama駉 del problema] [numero a buscar]"
+/*
+  T铆tulo: Medicion de tiempo de Algoritmo de Busqueda Binaria con hilos
+  Descripci贸n: Implementaci贸n de Busqueda de Binaria con hilos.
+  Fecha: 22/Noviembre/2020.
+  Versi贸n: Versi贸n 1.0
+  Autor: Guerrero Espinosa Ximena Mariana
+  Compilacion: "gcc BusquedaBinariaHilo.c tiempo.c -o bbh -lpthread"
+  Ejecucion: "./bbh [tama帽o del problema] [numero a buscar]"
+*/
 
 //LIBRERIAS INCLUIDAS
 #include <pthread.h>
@@ -19,7 +25,7 @@ int B;		//Numero a buscar
 La funcion procesar se creo para indicar a cada uno de los hilos en que intervalo del arreglo 
 trabajara, resaltemos que se recibira el identificador del hilo; considerando que el arreglo esta
 ordenado ascendentemente podemos definir el inicio y fin de cada intervalo. Asimismo se indicara 
-que hilo fue el que lo encontr贸. 
+que hilo fue el que lo encontr脙鲁. 
 */
 void* procesar(void* id)
 {	
@@ -59,7 +65,7 @@ int main (int argc, char *argv[])
 	thread = malloc(NumThreads*sizeof(pthread_t));
 	
 	if (argc<1) {
-		printf("\nIndique el tama駉 de N - \nEjemplo: [user@equipo]$ %s %s 1000\n",argv[0],argv[1]);
+		printf("\nIndique el tama帽o de N - \nEjemplo: [user@equipo]$ %s %s 1000\n",argv[0],argv[1]);
 		exit(-1);
 	}
 	if(argc<2){
@@ -70,7 +76,7 @@ int main (int argc, char *argv[])
 	B=atoi(argv[2]);
 
 	A=(int*)malloc(sizeof(int)*N); //Creacion de memoria para el arreglo
-	//ciclo para llenar el arreglo con el tama駉 del problema 
+	//ciclo para llenar el arreglo con el tama帽o del problema 
 	for(i=0; i<N; i++){
 		scanf("%d", &A[i]);
 	}
@@ -98,12 +104,12 @@ int main (int argc, char *argv[])
 			} 	
 
 		uswtime(&utime1, &stime1, &wtime1);
-		//Calculo del tiempo de ejecuci贸n del programa
+		//Calculo del tiempo de ejecuci脙鲁n del programa
 		printf("\n");
 		printf("real (Tiempo total)  %.10f s\n",  wtime1 - wtime0);
 		printf("user (Tiempo de procesamiento en CPU's) %.10f s\n",  utime1 - utime0);
 		printf("%d threads (Tiempo de procesamiento aproximado por cada thread en CPU) %.10f s\n", NumThreads,(utime1 - utime0)/NumThreads);	
-		printf("sys (Tiempo en acci贸nes de E/S)  %.3f s\n",  stime1 - stime0);
+		printf("sys (Tiempo en acci脙鲁nes de E/S)  %.3f s\n",  stime1 - stime0);
 		printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
 		printf("\n");
 	
