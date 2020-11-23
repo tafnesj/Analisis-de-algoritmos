@@ -5,13 +5,13 @@
 ### Algoritmos de búsqueda
 
 |       Algoritmo       |    Codificación sin Hilos    |    Codificación con Hilos    |      Gráficas      |       Tiempos      |       Scripts      |   Análisis Apriori   |
-|:---------------------:|:----------------------------:|:----------------------------:|:------------------:|:------------------:|:------------------:|:------------------..:|
-|  Lineal               | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                | :x:                  |
-|  En árbol de búsqueda | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :x:                | :x:                  |
-|  Binaria              | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                | :x:                  |
-|  Exponencial          | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                | :x:                  |
+|:---------------------:|:----------------------------:|:----------------------------:|:------------------:|:------------------:|:------------------:|:--------------------:|
+|  Lineal               | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :x:                | :heavy_check_mark:   |
+|  En árbol de búsqueda | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :x:                | :heavy_check_mark:   |
+|  Binaria              | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                | :heavy_check_mark:   |
+|  Exponencial          | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :x:                | :heavy_check_mark:   |
 |  Fibonacci            | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                | :x:                  |
-|  Main                 | :hourglass_flowing_sand:     | :x:                          | :x:                | :x:                | :x:                | :x:                  |
+|  Main                 | :hourglass_flowing_sand:     |                              |                    |                    |                    |                      |
 
 ### Reporte :memo:
 Actividades a realizar para conformar el reporte:
@@ -51,7 +51,7 @@ Actividades a realizar para conformar el reporte:
     - [ ] Sacar tiempo promedio.
     - [ ] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
-  - [ ] Determinar cuánto le lleva e la computadora ejecutar el peor caso.
+  - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
   - [ ] Determinar para el peor caso el tiempo para n:
     - [ ] Tiempo para el peor caso con n:
@@ -97,7 +97,7 @@ Actividades a realizar para conformar el reporte:
     - [ ] Sacar tiempo promedio.
     - [ ] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
-  - [ ] Determinar cuánto le lleva e la computadora ejecutar el peor caso.
+  - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
   - [ ] Determinar para el peor caso el tiempo para n:
     - [ ] Tiempo para el peor caso con n:
@@ -143,7 +143,7 @@ Actividades a realizar para conformar el reporte:
     - [ ] Sacar tiempo promedio.
     - [ ] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
-  - [ ] Determinar cuánto le lleva e la computadora ejecutar el peor caso.
+  - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
   - [ ] Determinar para el peor caso el tiempo para n:
     - [ ] Tiempo para el peor caso con n:
@@ -189,7 +189,7 @@ Actividades a realizar para conformar el reporte:
     - [ ] Sacar tiempo promedio.
     - [ ] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
-  - [ ] Determinar cuánto le lleva e la computadora ejecutar el peor caso.
+  - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
   - [ ] Determinar para el peor caso el tiempo para n:
     - [ ] Tiempo para el peor caso con n:
@@ -235,7 +235,7 @@ Actividades a realizar para conformar el reporte:
     - [ ] Sacar tiempo promedio.
     - [ ] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
-  - [ ] Determinar cuánto le lleva e la computadora ejecutar el peor caso.
+  - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
   - [ ] Determinar para el peor caso el tiempo para n:
     - [ ] Tiempo para el peor caso con n:
