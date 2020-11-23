@@ -1,5 +1,5 @@
 //Compilación: "gcc BusquedaBinaria.c -o bb"
-//Ejecución: "./bbh [tamaño del problema] [numero a buscar]"
+//Ejecución: "./bb [tamaño del problema] [numero a buscar]"
 
 //LIBRERIAS INCLUIDAS
 #include <stdio.h>
