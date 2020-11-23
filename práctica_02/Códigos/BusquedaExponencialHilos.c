@@ -1,3 +1,13 @@
+/*
+  Título: Medicion de tiempo de Algoritmo de Busqueda Exponencial con hilos
+  Descripción: Implementación de Busqueda de Exponencial con hilos.
+  Fecha: 22/Noviembre/2020.
+  Versión: Versión 1.0
+  Autor: Guerrero Espinosa Ximena Mariana
+  Compilacion: "gcc BusquedaExponencialHilos.c tiempo.c -o beh -lpthread"
+  Ejecucion: "./beh
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -45,7 +55,7 @@ void main(int argc, char *argv[]){
 	pthread_t id[4];
 	int eid[4]; //Status del hilo
 	double utime0, stime0, wtime0,utime1, stime1, wtime1;
-
+	//falta verificar datos requeridos
 	n = atoi(argv[1]);
 	target = atoi(argv[2]);
 
