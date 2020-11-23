@@ -61,7 +61,7 @@ int main (int argc, char *argv[])
 {	
 	int i=0; //Variables para ciclo for
 	pthread_t *thread;
-	NumThreads=6;//El numero de threads sera constante;
+	NumThreads=4;//El numero de threads sera constante;
 	thread = malloc(NumThreads*sizeof(pthread_t));
 	
 	if (argc<1) {
