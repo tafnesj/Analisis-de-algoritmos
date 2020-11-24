@@ -5,9 +5,12 @@
 	* Manda a llamar a las diversas funciones de los algoritmos de búsqueda.
 	* Obtiene la medición de los tiempos de ejecución (llamada a las funciones).
 	-----------------------------------------------------------------------------
-  Fecha: 10/Noviembre/2020.
+  Fecha: 23/Noviembre/2020.
   Versión: Versión 1.0
-  Autor: Tafnes Jiménez.
+  Autores: 
+		* Tafnes Jiménez.
+		* Ximena Guerrero.
+		* Miguel Hernández.
 */
 
 // Librerías
@@ -18,8 +21,13 @@
 // Algoritmos sin hilos
 #include "linealSearch.c"
 #include "binarySearch.c"
+#include "binarySearchTree.c"
 #include "BusquedaFibonacci.c"
+#include "busqueda_exponencial.c"
+
 // Algoritmos con hilos
+#include "fibo.c"
+#include "lineal.c"
 
 int main (int argc, char* argv[]){
 
