@@ -11,16 +11,31 @@
   ---------------------------------------------------------------------
   Fecha: 10/Noviembre/2020.
   Versión: 1.0
-  Autor: Tafnes Jiménez.
+  Autor: Hernandez Espinoza Miguel Angel.
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 
-// Recibe un arreglo, su tamaño y valor "x" a buscar
-int binarySearch(int arr[], int n, int x)
+int exponentialSearch(int arr[], int n, int x);
+
+// Retorna la posición de la primera ocurrencia de x
+int exponentialSearch(int arr[], int n, int x)
 {
-  // Variables para índices para movernos en el arreglo
-  int left = 0, right = n - 1;
+  // Si x está presente en la primera posición
+  if (arr[0] == x)
+    return 0;
+
+  // Encuentra un rango para la búsqueda binaria
+  int i = 1;
+  while (i < n && arr[i] <= x)
+    i = i * 2;
+  int right = 0;
+  if (i < (n - 1))
+    right = i;
+  else
+    right = (n - 1);
+  int left = i / 2;
   // Dividimos y buscamos hasta que lleguemos ambos índices sean iguales
   while (left <= right)
   {
@@ -47,6 +62,4 @@ int binarySearch(int arr[], int n, int x)
       right = middle - 1;
     }
   }
-  // Si no se encuentra n retornamos -1
-  return -1;
 }

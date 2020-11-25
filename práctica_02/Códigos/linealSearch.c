@@ -17,16 +17,19 @@
 #include <stdio.h>
 
 // Recibe un arreglo, su tamaño y valor "x" a buscar
-int linealSearch(int arr[], int n, int x){
+int linealSearch(int arr[], int n, int x)
+{
   int i; // Variables para loops
   // Iteramos por todo el arregloS
-  for(i=0; i<n; i++){
-    // Si arr[i] es igual a nuestro número a buscar 
-    if(arr[i]==x){
+  for (i = 0; i < n; i++)
+  {
+    // Si arr[i] es igual a nuestro número a buscar
+    if (arr[i] == x)
+    {
       // Retornamos la posición del iterador
       return i;
     }
-  } 
+  }
   // Si no se encuentra n retornamos -1
-  return -1; 
+  return -1;
 }
