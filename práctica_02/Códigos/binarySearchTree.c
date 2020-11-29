@@ -14,13 +14,6 @@
   Autor: Tafnes Jiménez.
 */
 
-// Auxiliar para usar un bool en C
-typedef enum
-{
-  false,
-  true
-} bool;
-
 // Biblioteca
 #include <stdio.h>
 #include <stdlib.h>
@@ -65,31 +58,26 @@ void insertar(int num_nodo, nodo **raiz)
 }
 
 // Implementación de la búsqueda
-bool busqueda(int x, nodo *raiz)
-{                   // Recibe el valor x y el árbol
+int treeSearch(int x, nodo *raiz)
+{ 
+  // Recibe el valor x y el árbol
   nodo *aux = raiz; //
-  //
+  
   while (aux != NULL)
   {
     // Búsqueda en la raíz del árbol
-    // Cuando el valor de x se encuentra en la raíz
-    if (aux->num == x)
+    if (aux->num == x) // Cuando el valor de x se encuentra en la raíz
     {
-      return true;
-    }
-    // Cuando el valor de x < raiz
-    if (aux->num > x)
+      return 0;
+    }else if (aux->num > x) // Cuando el valor de x < raiz
     {
       aux = aux->izq;
-    }
-    // Cuando el valor de x > raiz
-    if (aux->num < x)
+    }else if (aux->num < x) // Cuando el valor de x > raiz
     {
       aux = aux->der;
     }
   }
-
-  return false;
+  return -1;
 }
 
 // Aplicación del algortimo, recibe un arreglo y un valor n
@@ -104,4 +92,13 @@ nodo *createTree(int *arr, int n)
     insertar(arr[i], &tree);
   }
   return tree;
+}
+
+// Función para imprimir el árbol
+void imprimir(nodo *raiz){
+  if(raiz!=NULL){
+    imprimir(raiz->izq);
+    printf("%d \n",raiz->num);
+    imprimir(raiz->der);  
+  }
 }
