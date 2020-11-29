@@ -17,8 +17,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int exponentialSearch(int arr[], int n, int x);
-
 // Retorna la posición de la primera ocurrencia de x
 int exponentialSearch(int arr[], int n, int x)
 {
