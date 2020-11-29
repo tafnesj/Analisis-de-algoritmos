@@ -16,7 +16,7 @@ int min(int x, int y)
 
 /*  Recibe un arreglo, el numero a buscar 
 	y el tamaño del arreglo*/
-int fibMonaccianSearch(int arr[], int x, int n)
+int fibMonaccianSearch(int arr[], int n, int x)
 {
 
     /* Inicializa los números de fibonacci */

@@ -60,4 +60,5 @@ int exponentialSearch(int arr[], int n, int x)
       right = middle - 1;
     }
   }
+  return -1;
 }
