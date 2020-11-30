@@ -6,12 +6,12 @@
 
 |       Algoritmo       |    Codificación sin Hilos    |    Codificación con Hilos    |      Gráficas      |       Tiempos      |       Scripts      |   Análisis Apriori   |
 |:---------------------:|:----------------------------:|:----------------------------:|:------------------:|:------------------:|:------------------:|:--------------------:|
-|  Lineal               | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :x:                | :heavy_check_mark:   |
-|  En árbol de búsqueda | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :x:                | :heavy_check_mark:   |
-|  Binaria              | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                | :heavy_check_mark:   |
-|  Exponencial          | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :x:                | :heavy_check_mark:   |
-|  Fibonacci            | :heavy_check_mark:           | :x:                          | :x:                | :x:                | :x:                | :x:                  |
-|  Main                 | :hourglass_flowing_sand:     |                              |                    |                    |                    |                      |
+|  Lineal               | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
+|  En árbol de búsqueda | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
+|  Binaria              | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
+|  Exponencial          | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
+|  Fibonacci            | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
+|  Main                 | :heavy_check_mark:           |                              |                    |                    |                    |                      |
 
 ### Reporte :memo:
 Actividades a realizar para conformar el reporte:
