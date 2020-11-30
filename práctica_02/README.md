@@ -6,11 +6,11 @@
 
 |       Algoritmo       |    Codificación sin Hilos    |    Codificación con Hilos    |      Gráficas      |       Tiempos      |       Scripts      |   Análisis Apriori   |
 |:---------------------:|:----------------------------:|:----------------------------:|:------------------:|:------------------:|:------------------:|:--------------------:|
-|  Lineal               | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
-|  En árbol de búsqueda | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
-|  Binaria              | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
-|  Exponencial          | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
-|  Fibonacci            | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :x:                | :heavy_check_mark: | :x:                  |
+|  Lineal               | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                  |
+|  En árbol de búsqueda | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                  |
+|  Binaria              | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                  |
+|  Exponencial          | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                  |
+|  Fibonacci            | :heavy_check_mark:           | :heavy_check_mark:           | :x:                | :heavy_check_mark: | :heavy_check_mark: | :x:                  |
 |  Main                 | :heavy_check_mark:           |                              |                    |                    |                    |                      |
 
 ### Reporte :memo:
@@ -27,29 +27,29 @@ Actividades a realizar para conformar el reporte:
 - [x] Especificaciones de hardware.
 - [x] Compilador.
 - [x] Sistema operativo.
-- [ ] Entorno controlado.
-- [ ] Definición de algoritmos de búsqueda.
+- [x] Entorno controlado.
+- [x] Definición de algoritmos de búsqueda.
 
   #### :pushpin: Lineal 
-  - [ ] Teoría.
+  - [x] Teoría.
   - [ ] Análisis teórico.
     - [ ] Mejor caso.
     - [ ] Peor caso.
     - [ ] Caso medio. 
-  - [ ] Registro de tiempo.
-    - [ ] Buscar números de A con valor de:
-      - [ ] n = 1000000.
-      - [ ] n = 2000000.
-      - [ ] n = 3000000.
-      - [ ] n = 4000000.
-      - [ ] n = 5000000.
-      - [ ] n = 6000000.
-      - [ ] n = 7000000.
-      - [ ] n = 8000000.
-      - [ ] n = 9000000.
-      - [ ] n = 10000000.
-    - [ ] Sacar tiempo promedio.
-    - [ ] Gráfica tiempo promedio.
+  - [x] Registro de tiempo.
+    - [x] Buscar números de A con valor de:
+      - [x] n = 1000000.
+      - [x] n = 2000000.
+      - [x] n = 3000000.
+      - [x] n = 4000000.
+      - [x] n = 5000000.
+      - [x] n = 6000000.
+      - [x] n = 7000000.
+      - [x] n = 8000000.
+      - [x] n = 9000000.
+      - [x] n = 10000000.
+    - [x] Sacar tiempo promedio.
+    - [x] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
   - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
@@ -82,20 +82,20 @@ Actividades a realizar para conformar el reporte:
     - [ ] Mejor caso.
     - [ ] Peor caso.
     - [ ] Caso medio. 
-  - [ ] Registro de tiempo.
-    - [ ] Buscar números de A con valor de:
-      - [ ] n = 1000000.
-      - [ ] n = 2000000.
-      - [ ] n = 3000000.
-      - [ ] n = 4000000.
-      - [ ] n = 5000000.
-      - [ ] n = 6000000.
-      - [ ] n = 7000000.
-      - [ ] n = 8000000.
-      - [ ] n = 9000000.
-      - [ ] n = 10000000.
-    - [ ] Sacar tiempo promedio.
-    - [ ] Gráfica tiempo promedio.
+  - [x] Registro de tiempo.
+    - [x] Buscar números de A con valor de:
+      - [x] n = 1000000.
+      - [x] n = 2000000.
+      - [x] n = 3000000.
+      - [x] n = 4000000.
+      - [x] n = 5000000.
+      - [x] n = 6000000.
+      - [x] n = 7000000.
+      - [x] n = 8000000.
+      - [x] n = 9000000.
+      - [x] n = 10000000.
+    - [x] Sacar tiempo promedio.
+    - [x] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
   - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
@@ -123,25 +123,25 @@ Actividades a realizar para conformar el reporte:
       - [ ] Gráfica tiempo promedio.
 
   #### :pushpin: Binaria 
-  - [ ] Teoría.
+  - [x] Teoría.
   - [ ] Análisis teórico.
     - [ ] Mejor caso.
     - [ ] Peor caso.
     - [ ] Caso medio. 
-  - [ ] Registro de tiempo.
-    - [ ] Buscar números de A con valor de:
-      - [ ] n = 1000000.
-      - [ ] n = 2000000.
-      - [ ] n = 3000000.
-      - [ ] n = 4000000.
-      - [ ] n = 5000000.
-      - [ ] n = 6000000.
-      - [ ] n = 7000000.
-      - [ ] n = 8000000.
-      - [ ] n = 9000000.
-      - [ ] n = 10000000.
-    - [ ] Sacar tiempo promedio.
-    - [ ] Gráfica tiempo promedio.
+  - [x] Registro de tiempo.
+    - [x] Buscar números de A con valor de:
+      - [x] n = 1000000.
+      - [x] n = 2000000.
+      - [x] n = 3000000.
+      - [x] n = 4000000.
+      - [x] n = 5000000.
+      - [x] n = 6000000.
+      - [x] n = 7000000.
+      - [x] n = 8000000.
+      - [x] n = 9000000.
+      - [x] n = 10000000.
+    - [x] Sacar tiempo promedio.
+    - [x] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
   - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
@@ -174,20 +174,20 @@ Actividades a realizar para conformar el reporte:
     - [ ] Mejor caso.
     - [ ] Peor caso.
     - [ ] Caso medio. 
-  - [ ] Registro de tiempo.
-    - [ ] Buscar números de A con valor de:
-      - [ ] n = 1000000.
-      - [ ] n = 2000000.
-      - [ ] n = 3000000.
-      - [ ] n = 4000000.
-      - [ ] n = 5000000.
-      - [ ] n = 6000000.
-      - [ ] n = 7000000.
-      - [ ] n = 8000000.
-      - [ ] n = 9000000.
-      - [ ] n = 10000000.
-    - [ ] Sacar tiempo promedio.
-    - [ ] Gráfica tiempo promedio.
+  - [x] Registro de tiempo.
+    - [x] Buscar números de A con valor de:
+      - [x] n = 1000000.
+      - [x] n = 2000000.
+      - [x] n = 3000000.
+      - [x] n = 4000000.
+      - [x] n = 5000000.
+      - [x] n = 6000000.
+      - [x] n = 7000000.
+      - [x] n = 8000000.
+      - [x] n = 9000000.
+      - [x] n = 10000000.
+    - [x] Sacar tiempo promedio.
+    - [x] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
   - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
@@ -220,20 +220,20 @@ Actividades a realizar para conformar el reporte:
     - [ ] Mejor caso.
     - [ ] Peor caso.
     - [ ] Caso medio. 
-  - [ ] Registro de tiempo.
-    - [ ] Buscar números de A con valor de:
-      - [ ] n = 1000000.
-      - [ ] n = 2000000.
-      - [ ] n = 3000000.
-      - [ ] n = 4000000.
-      - [ ] n = 5000000.
-      - [ ] n = 6000000.
-      - [ ] n = 7000000.
-      - [ ] n = 8000000.
-      - [ ] n = 9000000.
-      - [ ] n = 10000000.
-    - [ ] Sacar tiempo promedio.
-    - [ ] Gráfica tiempo promedio.
+  - [x] Registro de tiempo.
+    - [x] Buscar números de A con valor de:
+      - [x] n = 1000000.
+      - [x] n = 2000000.
+      - [x] n = 3000000.
+      - [x] n = 4000000.
+      - [x] n = 5000000.
+      - [x] n = 6000000.
+      - [x] n = 7000000.
+      - [x] n = 8000000.
+      - [x] n = 9000000.
+      - [x] n = 10000000.
+    - [x] Sacar tiempo promedio.
+    - [x] Gráfica tiempo promedio.
   - [ ] Aproximación del comportamiento temporal.
   - [ ] Determinar cuánto le lleva a la computadora ejecutar el peor caso.
   - [ ] Encontrar la constante multiplicativa.
