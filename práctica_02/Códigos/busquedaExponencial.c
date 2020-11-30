@@ -1,14 +1,14 @@
 /*
-  Título: Búsqueda binaria.
-  ---------------------------------------------------------------------
+  Título: Búsqueda exponencial
+  --------------------------------------------------------------------------
   Descripción: 
-  Búsqueda de un valor "x" por medio de búsqueda binaria en un arreglo.
+  Búsqueda de un valor "x" por medio de búsqueda exponencial en un arreglo.
   Valores de entrada:
   * Arreglo de enteros, tamaño y valor "x" a buscar.
   Valores de retorno:
   * Si se encuentra retorna la posición encontrado en middle.
   * En caso contrario se retorna -1.
-  ---------------------------------------------------------------------
+  --------------------------------------------------------------------------
   Fecha: 10/Noviembre/2020.
   Versión: 1.0
   Autor: Hernandez Espinoza Miguel Angel.

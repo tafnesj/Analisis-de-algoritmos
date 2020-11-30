@@ -9,7 +9,7 @@
   * Si se encuentra retorna la posición. 
   * En caso contrario se retorna -1.
   ---------------------------------------------------------------------
-  Fecha: 10/Noviembre/2020.
+  Fecha: 22/Noviembre/2020.
   Versión: 1.0
   Autores: Hernandez Espinoza Miguel Angel y Tafnes Jiménez.
 */
@@ -17,23 +17,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-
-struct datos
-{
-	int *arreglo;
-	int left;
-	int right;
-	int elemento;
-	int *found;
-};
+// Struct
+#include "datos.h"
 
 void *linealAuxiliar(void *args)
 {
-	struct datos *lineal = (struct datos *)args;
-	int j;
+	datos *lineal = (datos *)args;
 
-	// Iterará hasta que un hilo no lo haya encontrado 
-	for (j = lineal->left; j <= lineal->right && *lineal->found == -1; j++)
+	// Iterará hasta que un hilo no lo haya encontrado
+	for (int j = lineal->left; j <= lineal->right && *lineal->found == -1; j++)
 	{
 		// Si arreglo[i] es igual a nuestro número a buscar
 		if (lineal->arreglo[j] == (lineal->elemento))
@@ -50,8 +42,8 @@ void *linealAuxiliar(void *args)
 // Llamar a la función para el main
 int linealSearchHilos(int arr[], int n, int x, int parts)
 {
-	pthread_t ids[parts];			// Número de hilos
-	int found = -1;			// Encontró el hilo o no (0 -> false)
+	pthread_t ids[parts]; // Número de hilos
+	int found = -1;				// Encontró el hilo o no (0 -> false)
 	// Variable auxiliar para cálculo de los rangos de los hilos
 	int tamT = n / parts;
 	// Variable auxiliar para divisibles no exactos
@@ -59,8 +51,8 @@ int linealSearchHilos(int arr[], int n, int x, int parts)
 
 	for (int i = 0; i < parts; i++)
 	{
-		// Creación de memoria para struct
-		struct datos *d = malloc(sizeof(struct datos));
+		// Creación de memoria para
+		datos *d = malloc(sizeof(datos));
 		d->arreglo = arr;
 		d->elemento = x;
 		// Variable inicio del rango
